@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=1.0">
+    <link rel="stylesheet" href="static/output.css">
+    <link rel="stylesheet" href="static/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="icon" href="static/favicon.ico">
+    <title>Профиль</title>
+    <script>
+        function loadScript(url)
+        {    
+            let head = document.getElementsByTagName('head')[0];
+            let script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            head.appendChild(script);
+        }
+        loadScript("static/generic.js");
+        loadScript("static/profile_only.js")
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="index">
+                <a href="index.html">
+                    <img src="media/images/logo.png">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="branches.html">Филиалы</a>
+                <a href="car-select.html">Автомобили</a>
+                <a href="booking.html" class="bro">Бронирование</a>
+            </div>
+            <div class="account">
+                <a href="profile.html" class="account-link">Гость</a>
+            </div>
+            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+        </div>
+    </header>
+    <div class="side-menu__trigger"></div>
+    <div class="side-menu">
+        <div class="side-menu__container">
+            <a href="booking.html" class="replacements bro">Бронирование</a>
+            <a href="history.html">История бронирования</a>
+            <a href="cards.html">Карты</a>
+            <a href="car-select.html" class="replacements">Автомобили</a>
+            <a href="branches.html" class="replacements">Филиалы</a>
+            <a href="profile.html" class="replacements">ЛК</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__container">
+            <div class="account-show">
+                <section class="ac-section">
+                    <h2>Аккаунт:</h2>
+                    <div class="ac-overview">
+                        <div class="ac-labels">Фамилия: </div><div id="ac-surname">Фамилия</div>
+                        <div class="ac-labels">Имя: </div><div id="ac-name">Имя</div>
+                        <div class="ac-labels">Отчество: </div><div id="ac-sec-name">Отчество</div>
+                        <div class="ac-labels">Номер паспорта: </div><div id="passport-id">nnnnnn nnnn</div>
+                        <div class="ac-labels">Телефон: </div><div id="ac-phone">+n-(nnn)-nnn-nn-nn</div>
+                        <div class="ac-labels">Дата рождения: </div><div id="ac-bd-date">dd-mm-yyyy</div>
+                        <div class="ac-labels">Активная карта: </div><div id="cards">
+                            <div class="ac-card">
+                                <div class="ac-card-number"></div>
+                            </div>
+                            <a class="generic-button" href="cards.html">Изменить</a>
+                        </div>
+                        <a class="ac-logout-button generic-button g-button-red page-opener page1">Выйти</a>
+                    </div>
+                    <h2>Бронирования:</h2>
+                    <div class="acbk-list">
+                        <div class="acbk-list__container">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__container">
+            <ul class="footer-link">
+                <li>Телефон:</li>
+                <li><a>8-800-555-35-35</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Аккаунт:</li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="cards.html">Привязанные карты</a></li>
+                <li><a href="login.html">Вход/Регистрация</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Сайт:</li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="history.html">История бронирования</a></li>
+                <li><a href="branches.html">Филиалы</a></li>
+                <li><a href="car-select.html">Автомобили</a></li>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </div>
+    </footer>
+    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page1"></i>
+            <div class="ac-logout-page-content">
+                <div class="ac-logout-text">Вы уверены, что хотите выйти из аккаунта?</div>
+                <a class="ac-logout-button generic-button g-button-red" onclick=onlogout()>Выйти</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/output.css">
+    <link rel="stylesheet" href="static/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="icon" href="static/favicon.ico">
+    <title>Филиалы</title>
+    <script>
+        function loadScript(url)
+        {    
+            let head = document.getElementsByTagName('head')[0];
+            let script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            head.appendChild(script);
+        }
+        loadScript("static/generic.js");
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="index">
+                <a href="index.html">
+                    <img src="media/images/logo.png">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="branches.html">Филиалы</a>
+                <a href="car-select.html">Автомобили</a>
+                <a href="booking.html" class="bro">Бронирование</a>
+            </div>
+            <div class="account">
+                <a href="profile.html" class="account-link">Гость</a>
+            </div>
+            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+        </div>
+    </header>
+    <div class="side-menu__trigger"></div>
+    <div class="side-menu">
+        <div class="side-menu__container">
+            <a href="booking.html" class="replacements bro">Бронирование</a>
+            <a href="history.html">История бронирования</a>
+            <a href="cards.html">Карты</a>
+            <a href="car-select.html" class="replacements">Автомобили</a>
+            <a href="branches.html" class="replacements">Филиалы</a>
+            <a href="profile.html" class="replacements">ЛК</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__container">
+            <h2>Выберите филиал (г. Барнаул)</h2>
+            <div class="fel-list">
+                <div class="fel-list__container">
+                    <a class="fel page-opener page1">
+                        <div class="fel-name page-opener page1">Первый</div>
+                        <img class="fel-image page-opener page1" src="media/images/maps/Kras.png">
+                        <div class="fel-adress page-opener page1">ул. 280-летия Барнаула, д. 16</div>
+                    </a>
+                    <a class="fel page-opener page2">
+                        <div class="fel-name page-opener page2">Второй</div>
+                        <img class="fel-image page-opener page2" src="media/images/maps/Moskow.png">
+                        <div class="fel-adress page-opener page2">ул. Северо-Западная, д. 159</div>
+                    </a>
+                    <a class="fel page-opener page3">
+                        <div class="fel-name page-opener page3">Третий</div>
+                        <img class="fel-image page-opener page3" src="media/images/maps/Novos.png">
+                        <div class="fel-adress page-opener page3">ул. Проспект Космонавтов, д. 10/4, ​Автокомплекс "Техно-Маркет"</div>
+                    </a>
+                    <a class="fel page-opener page4">
+                        <div class="fel-name page-opener page4">Четвертый</div>
+                        <img class="fel-image page-opener page4" src="media/images/maps/Piter.png">
+                        <div class="fel-adress page-opener page4">​ул. Павловский тракт, д. 164</div>
+                    </a>
+                    <a class="fel page-opener page5">
+                        <div class="fel-name page-opener page5">Пятый</div>
+                        <img class="fel-image page-opener page5" src="media/images/maps/Томск.png">
+                        <div class="fel-adress page-opener page5">​ул. Герцена, д. 7/524</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__container">
+            <ul class="footer-link">
+                <li>Телефон:</li>
+                <li><a>8-800-555-35-35</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Аккаунт:</li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="cards.html">Привязанные карты</a></li>
+                <li><a href="login.html">Вход/Выход/Регистрация</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Сайт:</li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="history.html">История бронирования</a></li>
+                <li><a href="branches.html">Филиалы</a></li>
+                <li><a href="car-select.html">Автомобили</a></li>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+            <div class="footer-bottom-text"></div>
+        </div>
+    </footer>
+    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page1"></i>
+            <h2>Здесь доступны:</h2>
+            <div class="fl-page-content">
+                <div class="fel-car">
+                    <img class="car-image car6 cars">
+                    <div class="car-name car6 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car6 cars">NNN</i></div>
+                    <a class="generic-button carchoice c6 f1" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car8 cars">
+                    <div class="car-name car8 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car8 cars">NNN</i></div>
+                    <a class="generic-button carchoice c8 f1" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car2 cars">
+                    <div class="car-name car2 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car2 cars">NNN</i></div>
+                    <a class="generic-button carchoice c2 f1" href="booking.html">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page2">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page2"></i>
+            <h2>Здесь доступны:</h2>
+            <div class="fl-page-content">
+                <div class="fel-car">
+                    <img class="car-image car11 cars">
+                    <div class="car-name car11 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car11 cars">NNN</i></div>
+                    <a class="generic-button carchoice c11 f2" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car12 cars">
+                    <div class="car-name car12 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car12 cars">NNN</i></div>
+                    <a class="generic-button carchoice c12 f2" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car5 cars">
+                    <div class="car-name car5 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car5 cars">NNN</i></div>
+                    <a class="generic-button carchoice c5 f2" href="booking.html">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page3">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page3"></i>
+            <h2>Здесь доступны:</h2>
+            <div class="fl-page-content">
+                <div class="fel-car">
+                    <img class="car-image car8 cars">
+                    <div class="car-name car8 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car8 cars">NNN</i></div>
+                    <a class="generic-button carchoice c8 f3" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car3 cars">
+                    <div class="car-name car3 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car3 cars">NNN</i></div>
+                    <a class="generic-button carchoice c3 f3" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car1 cars">
+                    <div class="car-name car1 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car1 cars">NNN</i></div>
+                    <a class="generic-button carchoice c1 f3" href="booking.html">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page4">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page4"></i>
+            <h2>Здесь доступны:</h2>
+            <div class="fl-page-content">
+                <div class="fel-car">
+                    <img class="car-image car4 cars">
+                    <div class="car-name car4 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car4 cars">NNN</i></div>
+                    <a class="generic-button carchoice c4 f4" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car7 cars">
+                    <div class="car-name car7 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car7 cars">NNN</i></div>
+                    <a class="generic-button carchoice c7 f4" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car9 cars">
+                    <div class="car-name car9 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car9 cars">NNN</i></div>
+                    <a class="generic-button carchoice c9 f4" href="booking.html">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page5">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page5"></i>
+            <h2>Здесь доступны:</h2>
+            <div class="fl-page-content">
+                <div class="fel-car">
+                    <img class="car-image car10 cars">
+                    <div class="car-name car10 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car10 cars">NNN</i></div>
+                    <a class="generic-button carchoice c10 f5" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car6 cars">
+                    <div class="car-name car6 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car6 cars">NNN</i></div>
+                    <a class="generic-button carchoice c6 f5" href="booking.html">Выбрать</a>
+                </div>
+                <div class="fel-car">
+                    <img class="car-image car5 cars">
+                    <div class="car-name car5 cars">PlaceHolder</div>
+                    <div>от <i class="accent-text car-price car5 cars">NNN</i></div>
+                    <a class="generic-button carchoice c5 f5" href="booking.html">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

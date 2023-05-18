@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=1.0">
+    <link rel="stylesheet" href="static/output.css">
+    <link rel="stylesheet" href="static/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="icon" href="static/favicon.ico">
+    <title>Автомобили</title>
+    <script>
+        function loadScript(url)
+        {    
+            let head = document.getElementsByTagName('head')[0];
+            let script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            head.appendChild(script);
+        }
+        loadScript("static/generic.js");
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="index">
+                <a href="index.html">
+                    <img src="media/images/logo.png">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="branches.html">Филиалы</a>
+                <a href="car-select.html">Автомобили</a>
+                <a href="booking.html" class="bro">Бронирование</a>
+            </div>
+            <div class="account">
+                <a href="profile.html" class="account-link">Гость</a>
+            </div>
+            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+        </div>
+    </header>
+    <div class="side-menu__trigger"></div>
+    <div class="side-menu">
+        <div class="side-menu__container">
+            <a href="booking.html" class="replacements bro">Бронирование</a>
+            <a href="history.html">История бронирования</a>
+            <a href="cards.html">Карты</a>
+            <a href="car-select.html" class="replacements">Автомобили</a>
+            <a href="branches.html" class="replacements">Филиалы</a>
+            <a href="profile.html" class="replacements">ЛК</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__container">
+            <h2>Выбор для бронирования</h2>
+            <div class="catalog">
+                <div class="cat-item">
+                    <div class="cat-name car-name car1 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car1"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car1">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page1">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car2 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car2"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car2">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page2">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car3 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car3"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car3">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page3">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car4 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car4"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car4 ">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page4">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car5 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car5"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car5">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page5">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car6 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car6"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car6">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page6">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car7 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car7"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car7">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page7">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car8 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car8"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car8">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page8">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car9 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car9"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car9">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page9">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car10 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car10"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car10">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page10">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car11 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car11"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car11">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page11">Подробнее</a>
+                </div>
+                <div class="cat-item">
+                    <div class="cat-name car-name car12 cars">PLL</div>
+                    <div class="cat-image"><img class="car-image car12"></div>
+                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car12">PLL</i></i></div>
+                    <a class="cat-button generic-button page-opener page12">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__container">
+            <ul class="footer-link">
+                <li>Телефон:</li>
+                <li><a>8-800-555-35-35</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Аккаунт:</li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="cards.html">Привязанные карты</a></li>
+                <li><a href="login.html">Вход/Регистрация</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Сайт:</li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="history.html">История бронирования</a></li>
+                <li><a href="branches.html">Филиалы</a></li>
+                <li><a href="car-select.html">Автомобили</a></li>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </div>
+    </footer>
+    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page1"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car1"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car1">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car1">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car1">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car1"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car1"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car1">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c1">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page1">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page2">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page2"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car2"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car2">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car2">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car2">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car2"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car2"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car2">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c2">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page2">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page3">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page3"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car3"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car3">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car3">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car3">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car3"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car3"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car3">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c3">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page3">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page4">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page4"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car4"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car4">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car4">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car4">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car4"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car4"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car4">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c4">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page4">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page5">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page5"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car5"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car5">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car5">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car5">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car5"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car5"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car5">PLL</i></i></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c5">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page5">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page6">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page6"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car6"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car6">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car6">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car6">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car6"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car6"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car6">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c6">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page6">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page7">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page7"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car7"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car7">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car7">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car7">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car7"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car7"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car7">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c7">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page7">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page8">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page8"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car8"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car8">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car8">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car8">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car8"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car8"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car8">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c8">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page8">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page9">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page9"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car9"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car9">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car9">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car9">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car9"></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car9"></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car9">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c9">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page9">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page10">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page10"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car10"></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car10">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car10">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car10">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car10 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car10 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car10 ">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c10">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page10">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page11">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page11"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car11 "></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car11 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car11 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car11 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car11 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car11 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car11 ">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c11">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page11">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page page12">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page12"></i>
+            <div class="car-page">
+                <div class="car-page__container">
+                    <div class="car-page-image"><img class="car-image car12 "></div>
+                    <div class="car-page-chars">
+                        <h2>Характеристики</h2>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car12 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car12 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car12 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car12 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car12 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car12 ">PLL</i></i></div>
+                    </div>
+                </div>
+                <div class="car-page__buttons">
+                    <a class="generic-button carchoice c12">Выбрать</a>
+                    <a class="generic-button g-button-red page-closer page12">Отмена</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

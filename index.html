@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=1.0">
+    <link rel="stylesheet" href="static/output.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="icon" href="static/favicon.ico">
+    <title>Index Drive</title>
+    <script>
+        function loadScript(url)
+        {    
+            let head = document.getElementsByTagName('head')[0];
+            let script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            head.appendChild(script);
+        }
+        loadScript("static/generic.js");
+        loadScript("static/index_only.js");
+    </script>
+</head>
+<body>
+    <header class="fixed z-20 top-0 w-screen bg-gray-950">
+        <div class="header__container grid grid-flow-col h-20 justify-center content-center">
+            <div class="index h-20 flex items-center">
+                <a href="index.html" class="h-16">
+                    <img src="media/images/logo.png" class="h-full object-contain">
+                </a>
+            </div>
+            <div class="menu grid justify-center items-center grid-flow-col gap-10">
+                <a href="branches.html" class="flex justify-center items-center h-full w-full">Филиалы</a>
+                <a href="car-select.html" class="flex justify-center items-center h-full w-full">Автомобили</a>
+                <a href="booking.html" class="flex justify-center items-center h-full w-full bro">Бронирование</a>
+            </div>
+            <div class="account accent-text">
+                <a href="profile.html" class="account-link h-full w-full flex justify-center content-center items-center">Гость</a>
+            </div>
+            <a class="menu-button h-full flex items-center cursor-pointer w-24 justify-center"><i class="fas fa-th-list text-6xl"></i></a>
+        </div>
+    </header>
+    <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
+    <div class="side-menu h-screen w-2/12 right-0 top-0 fixed">
+        <div class="side-menu__container">
+            <a href="booking.html" class="replacements bro">Бронирование</a>
+            <a href="history.html">История бронирования</a>
+            <a href="cards.html">Карты</a>
+            <a href="car-select.html" class="replacements">Автомобили</a>
+            <a href="branches.html" class="replacements">Филиалы</a>
+            <a href="profile.html" class="replacements">ЛК</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="media/images/roads/plan-road-trip-tips-ideas.jpg">
+        <div class="banner__container absolute w-full h-full top-0 flex items-center justify-center text-2xl text-center bg-black bg-opacity-30">
+            ПОПРОБУЙТЕ ВПЕЧАТЛЕНИЯ ПРОИЗВОДИТЕЛЯ.<br><br>
+
+            С нами ваша дорога пройдёт гладко, насыщенно и безопасно.
+        </div>
+    </div>
+    <div class="content" style="padding-top: 0;">
+        <div class="content__container">
+            <div class="search grid grid-flow-col grid-cols-3">
+                <img src="" class="search-cars object-contain">
+                <div class="search-text">
+                    <div>Вот эти машины нам доверяют.<br>
+                        А вы нам нет?<br>
+                        Попробуйте каталог и убедитесь сами.</div>
+                </div>
+                <img src="" class="search-cars object-contain">
+            </div>
+            <h2 class="h-title">Новости</h2>
+            <div class="news">
+                <div class="new page-opener page1">
+                    <div class="new-name page-opener page1">В России вынесли первый приговор за продажу аккаунтов каршеринга</div>
+                    <div class="new-image"><img src="media/images/cars/ew-car-png-cb-car-png-car-11563267985ea0mqfwilw.png" class="page-opener page1"></div>
+                    <div class="new-description page-opener page1">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ Романа Амелина на 50 тыс. рублей. Как сообщает РАПСИ со ссылкой на Объединенную пресс-службу судов Петербурга, 21-летний молодой человек обвинялся по части 2 статьи 272 УК РФ (неправомерный доступ к компьютерной информации, совершенный из корыстной заинтересованности).</div>
+                </div>
+                <div class="new page-opener page2">
+                    <div class="new-name page-opener page2">Программа поддержки каршеринга не заработала из-за российского телематического оборудования</div>
+                    <div class="new-image"><img src="media/images/cars/images.jfif" class="page-opener page2"></div>
+                    <div class="new-description page-opener page2">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента РФ Владимира Путина, так и не заработала.</div>
+                </div>
+                <div class="new page-opener page3">
+                    <div class="new-name page-opener page3">Мошенничество с данными клиентов</div>
+                    <div class="new-image"><img src="media/images/cars/images (1).jfif" class="page-opener page3"></div>
+                    <div class="new-description page-opener page3">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты в микрофинансовых компаниях. Также базы каршерингов используют для звонков из фальшивой службы безопасности банков - так можно узнать наличие денег на счёте, данные банковских карт.</div>
+                </div>
+                <div class="new page-opener page4">
+                    <div class="new-name page-opener page4">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам объяснять не спешат</div>
+                    <div class="new-image"><img src="media/images/cars/Vintage_blue_car.png" class="page-opener page4"></div>
+                    <div class="new-description page-opener page4">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности и 9 июня направили коллективное обращение.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__container">
+            <ul class="footer-link">
+                <li>Телефон:</li>
+                <li><a>8-800-555-35-35</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Аккаунт:</li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="cards.html">Привязанные карты</a></li>
+                <li><a href="login.html">Вход/Регистрация</a></li>
+            </ul>
+            <ul class="footer-link">
+                <li>Сайт:</li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="history.html">История бронирования</a></li>
+                <li><a href="branches.html">Филиалы</a></li>
+                <li><a href="car-select.html">Автомобили</a></li>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </div>
+    </footer>
+    <section class="page page1 hidden fixed top-20 w-screen z-10">
+        <div class="page__container flex justify-center items-center content-center">
+            <i class="fas fa-window-close page-closer page1"></i>
+            <div class="new-page-content">
+                <div class="new-name">В России вынесли первый приговор за продажу аккаунтов каршеринга</div>
+                <div class="new-image"><img src="media/images/cars/ew-car-png-cb-car-png-car-11563267985ea0mqfwilw.png"></div>
+                <div class="new-description">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ Романа Амелина на 50 тыс. рублей. Как сообщает РАПСИ со ссылкой на Объединенную пресс-службу судов Петербурга, 21-летний молодой человек обвинялся по части 2 статьи 272 УК РФ (неправомерный доступ к компьютерной информации, совершенный из корыстной заинтересованности).</div>
+            </div>
+        </div>
+    </section>
+    <section class="page page2 hidden">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page2"></i>
+            <div class="new-page-content">
+                <div class="new-name">Программа поддержки каршеринга не заработала из-за российского телематического оборудования</div>
+                <div class="new-image"><img src="media/images/cars/images.jfif"></div>
+                <div class="new-description">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента РФ Владимира Путина, так и не заработала.</div>
+            </div>
+        </div>
+    </section>
+    <section class="page page3 hidden">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page3"></i>
+            <div class="new-page-content">
+                <div class="new-name">Мошенничество с данными клиентов</div>
+                <div class="new-image"><img src="media/images/cars/images (1).jfif"></div>
+                <div class="new-description">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты в микрофинансовых компаниях. Также базы каршерингов используют для звонков из фальшивой службы безопасности банков - так можно узнать наличие денег на счёте, данные банковских карт.</div>
+            </div>
+        </div>
+    </section>
+    <section class="page page4 hidden">
+        <div class="page__container">
+            <i class="fas fa-window-close page-closer page4"></i>
+            <div class="new-page-content">
+                <div class="new-name">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам объяснять не спешат</div>
+                <div class="new-image"><img src="media/images/cars/Vintage_blue_car.png"></div>
+                <div class="new-description">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности и 9 июня направили коллективное обращение.</div>
+            </div>
+        </div>
+    </section>
+    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+</body>
+</html>
