@@ -306,10 +306,10 @@ if (container !== undefined){
             element.appendChild(p);
             // создание страниц
             let page = dom.createElement("section");
-            page.className = "page page".concat(q);
+            page.className = "hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row page page".concat(q);
 
             let page__container = dom.createElement("div");
-            page__container.className = "page__container";
+            page__container.className = " max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md page__container";
 
             let closer = dom.createElement("i");
             closer.className = "fas fa-window-close page-closer page".concat(q);
@@ -843,7 +843,7 @@ dom.querySelector(".menu-button").addEventListener("click", () => {
     }
 });
 window.addEventListener('mouseover', (e) => {
-    if (!menu.contains(e.target) && e.target.className !== "side-menu__trigger" && e.target.className !== "menu-button") {
+    if (!menu.contains(e.target) && e.target.className !== "side-menu__trigger" && e.target.className !== "menu-button" && e.target.className !== "menu-button") {
         slideMenu(menu, 2);
     }
 });
