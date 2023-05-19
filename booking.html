@@ -21,27 +21,27 @@
     </script>
 </head>
 <body>
-    <header class="">
-        <div class="header__container">
-            <div class="index">
-                <a href="index.html">
-                    <img src="media/images/logo.png">
+    <header class="fixed z-20 top-0 w-screen bg-gray-950">
+        <div class="header__container grid grid-flow-col h-20 justify-center content-center">
+            <div class="index h-20 flex items-center">
+                <a href="index.html" class="h-16">
+                    <img src="media/images/logo.png" class="h-full object-contain">
                 </a>
             </div>
-            <div class="menu">
-                <a href="branches.html">Филиалы</a>
-                <a href="car-select.html">Автомобили</a>
-                <a href="booking.html" class="bro">Бронирование</a>
+            <div class="menu grid justify-center items-center grid-flow-col gap-10">
+                <a href="branches.html" class="flex justify-center items-center h-full w-full">Филиалы</a>
+                <a href="car-select.html" class="flex justify-center items-center h-full w-full">Автомобили</a>
+                <a href="booking.html" class="flex justify-center items-center h-full w-full bro">Бронирование</a>
             </div>
-            <div class="account">
-                <a href="profile.html" class="account-link">Гость</a>
+            <div class="account accent-text">
+                <a href="profile.html" class="account-link h-full w-full flex justify-center content-center items-center">Гость</a>
             </div>
-            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+            <a class="menu-button h-full flex items-center cursor-pointer w-24 justify-center"><i class="fas fa-th-list text-6xl"></i></a>
         </div>
     </header>
-    <div class="side-menu__trigger"></div>
-    <div class="side-menu">
-        <div class="side-menu__container">
+    <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
+    <div class="side-menu h-screen w-2/12 top-20 fixed bg-slate-600">
+        <div class="side-menu__container h-full flex flex-col">
             <a href="booking.html" class="replacements bro">Бронирование</a>
             <a href="history.html">История бронирования</a>
             <a href="cards.html">Карты</a>
@@ -50,7 +50,7 @@
             <a href="profile.html" class="replacements">ЛК</a>
         </div>
     </div>
-    <div class="content">
+    <div class="content relative top-20 min-h-screen">
         <div class="content__container">
             <h2>Бронирование</h2>
             <div class="bk-list">
@@ -70,8 +70,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer__container">
+    <footer class="w-screen bg-gray-800 relative">
+        <div class="footer__container flex flex-column w-full justify-around p-8">
             <ul class="footer-link">
                 <li>Телефон:</li>
                 <li><a>8-800-555-35-35</a></li>
@@ -92,6 +92,6 @@
             </ul>
         </div>
     </footer>
-    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <h1 class="wow hidden">Мы не рассматривали вариант существования вашего устройства.</h1>
 </body>
 </html>

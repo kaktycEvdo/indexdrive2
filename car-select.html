@@ -21,27 +21,27 @@
     </script>
 </head>
 <body>
-    <header>
-        <div class="header__container">
-            <div class="index">
-                <a href="index.html">
-                    <img src="media/images/logo.png">
+    <header class="fixed z-20 top-0 w-screen bg-gray-950">
+        <div class="header__container grid grid-flow-col h-20 justify-center content-center">
+            <div class="index h-20 flex items-center">
+                <a href="index.html" class="h-16">
+                    <img src="media/images/logo.png" class="h-full object-contain">
                 </a>
             </div>
-            <div class="menu">
-                <a href="branches.html">Филиалы</a>
-                <a href="car-select.html">Автомобили</a>
-                <a href="booking.html" class="bro">Бронирование</a>
+            <div class="menu grid justify-center items-center grid-flow-col gap-10">
+                <a href="branches.html" class="flex justify-center items-center h-full w-full">Филиалы</a>
+                <a href="car-select.html" class="flex justify-center items-center h-full w-full">Автомобили</a>
+                <a href="booking.html" class="flex justify-center items-center h-full w-full bro">Бронирование</a>
             </div>
-            <div class="account">
-                <a href="profile.html" class="account-link">Гость</a>
+            <div class="account accent-text">
+                <a href="profile.html" class="account-link h-full w-full flex justify-center content-center items-center">Гость</a>
             </div>
-            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+            <a class="menu-button h-full flex items-center cursor-pointer w-24 justify-center"><i class="fas fa-th-list text-6xl"></i></a>
         </div>
     </header>
-    <div class="side-menu__trigger"></div>
-    <div class="side-menu">
-        <div class="side-menu__container">
+    <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
+    <div class="side-menu h-screen w-2/12 top-20 fixed bg-slate-600">
+        <div class="side-menu__container h-full flex flex-col">
             <a href="booking.html" class="replacements bro">Бронирование</a>
             <a href="history.html">История бронирования</a>
             <a href="cards.html">Карты</a>
@@ -50,87 +50,87 @@
             <a href="profile.html" class="replacements">ЛК</a>
         </div>
     </div>
-    <div class="content">
+    <div class="content relative top-20 min-h-screen">
         <div class="content__container">
             <h2>Выбор для бронирования</h2>
             <div class="catalog">
-                <div class="cat-item">
-                    <div class="cat-name car-name car1 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car1"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car1">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car1 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car1 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car1">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page1">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car2 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car2"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car2">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car2 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car2 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car2">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page2">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car3 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car3"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car3">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car3 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car3 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car3">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page3">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car4 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car4"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car4 ">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car4 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car4 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car4 ">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page4">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car5 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car5"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car5">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car5 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car5 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car5">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page5">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car6 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car6"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car6">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car6 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car6 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car6">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page6">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car7 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car7"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car7">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car7 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car7 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car7">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page7">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car8 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car8"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car8">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car8 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car8 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car8">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page8">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car9 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car9"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car9">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car9 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car9 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car9">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page9">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car10 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car10"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car10">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car10 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car10 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car10">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page10">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car11 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car11"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car11">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car11 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car11 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car11">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page11">Подробнее</a>
                 </div>
-                <div class="cat-item">
-                    <div class="cat-name car-name car12 cars">PLL</div>
-                    <div class="cat-image"><img class="car-image car12"></div>
-                    <div class="cat-price">от <i class="accent-text"><i class="accent-text car-price car12">PLL</i></i></div>
+                <div class="cat-item h-full grid grid-flow-row justify-center items-center content-center">
+                    <div class="cat-name car-name car12 cars text-center">PLL</div>
+                    <div class="cat-image h-full"><img class="car-image car12 h-full object-contain"></div>
+                    <div class="cat-price text-center">от <i class="accent-text"><i class="accent-text car-price car12">PLL</i></i></div>
                     <a class="cat-button generic-button page-opener page12">Подробнее</a>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer__container">
+    <footer class="w-screen bg-gray-800 relative">
+        <div class="footer__container flex flex-column w-full justify-around p-8">
             <ul class="footer-link">
                 <li>Телефон:</li>
                 <li><a>8-800-555-35-35</a></li>
@@ -150,22 +150,22 @@
                 <li><a href="index.html">Главная</a></li>
             </ul>
         </div>
-    </footer>
-    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
-    <section class="page page1">
-        <div class="page__container">
+    </footer>    
+    <h1 class="wow hidden">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page1"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car1"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car1 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car1">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car1">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car1">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car1"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car1"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car1">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car1 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car1 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car1 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car1 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car1 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car1 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -175,20 +175,20 @@
             </div>
         </div>
     </section>
-    <section class="page page2">
-        <div class="page__container">
+    <section class="page page2 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page2"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car2"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car2 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car2">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car2">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car2">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car2"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car2"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car2">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car2 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car2 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car2 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car2 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car2 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car2 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -198,20 +198,20 @@
             </div>
         </div>
     </section>
-    <section class="page page3">
-        <div class="page__container">
+    <section class="page page3 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page3"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car3"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car3 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car3">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car3">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car3">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car3"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car3"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car3">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car3 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car3 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car3 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car3 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car3 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car3 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -221,20 +221,20 @@
             </div>
         </div>
     </section>
-    <section class="page page4">
-        <div class="page__container">
+    <section class="page page4 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page4"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car4"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car4 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car4">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car4">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car4">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car4"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car4"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car4">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car4 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car4 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car4 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car4 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car4 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car4 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -244,21 +244,20 @@
             </div>
         </div>
     </section>
-    <section class="page page5">
-        <div class="page__container">
+    <section class="page page5 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page5"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car5"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car5 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car5">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car5">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car5">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car5"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car5"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car5">PLL</i></i></div>
-                    </div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car5 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car5 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car5 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car5 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car5 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car5 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -268,20 +267,20 @@
             </div>
         </div>
     </section>
-    <section class="page page6">
-        <div class="page__container">
+    <section class="page page6 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page6"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car6"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car6 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car6">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car6">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car6">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car6"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car6"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car6">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car6 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car6 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car6 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car6 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car6 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car6 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -291,20 +290,20 @@
             </div>
         </div>
     </section>
-    <section class="page page7">
-        <div class="page__container">
+    <section class="page page7 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page7"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car7"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car7 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car7">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car7">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car7">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car7"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car7"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car7">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car7 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car7 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car7 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car7 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car7 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car7 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -314,20 +313,20 @@
             </div>
         </div>
     </section>
-    <section class="page page8">
-        <div class="page__container">
+    <section class="page page8 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page8"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car8"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car8 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car8">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car8">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car8">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car8"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car8"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car8">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car8 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car8 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car8 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car8 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car8 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car8 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -337,20 +336,20 @@
             </div>
         </div>
     </section>
-    <section class="page page9">
-        <div class="page__container">
+    <section class="page page9 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page9"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car9"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car9 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car9">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car9">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car9">PLLL</div>
-                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car9"></div>
-                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car9"></div>
-                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car9">PLL</i></i></div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car9 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car9 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car9 ">PLLL</div>
+                        <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car9 "></div>
+                        <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car9 "></div>
+                        <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car9 ">PLL</i></i></div>
                     </div>
                 </div>
                 <div class="car-page__buttons">
@@ -360,17 +359,17 @@
             </div>
         </div>
     </section>
-    <section class="page page10">
-        <div class="page__container">
+    <section class="page page10 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page10"></i>
             <div class="car-page">
-                <div class="car-page__container">
-                    <div class="car-page-image"><img class="car-image car10"></div>
-                    <div class="car-page-chars">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
+                    <div class="car-page-image"><img class="car-image car10 "></div>
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
-                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car10">PLLL</div>
-                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car10">PLLL</div>
-                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car10">PLLL</div>
+                        <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car10 ">PLLL</div>
+                        <div class="car-page-text">Модель: </div><div class="car-page-model car-model car10 ">PLLL</div>
+                        <div class="car-page-text">Цвет: </div><div class="car-page-color car-color car10 ">PLLL</div>
                         <div class="car-page-text car-page-text-wide">Тип двигателя:</div><div class="car-page-engine-type car-engine car10 "></div>
                         <div class="car-page-text car-page-text-wide">Коробка передач:</div><div class="car-page-transmission car-transmission car10 "></div>
                         <div class="car-page-text">Цена: </div><div class="car-page-price">от <i class="accent-text"><i class="accent-text car-price car10 ">PLL</i></i></div>
@@ -383,13 +382,13 @@
             </div>
         </div>
     </section>
-    <section class="page page11">
-        <div class="page__container">
+    <section class="page page11 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page11"></i>
             <div class="car-page">
-                <div class="car-page__container">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
                     <div class="car-page-image"><img class="car-image car11 "></div>
-                    <div class="car-page-chars">
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
                         <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car11 ">PLLL</div>
                         <div class="car-page-text">Модель: </div><div class="car-page-model car-model car11 ">PLLL</div>
@@ -406,13 +405,13 @@
             </div>
         </div>
     </section>
-    <section class="page page12">
-        <div class="page__container">
+    <section class="page page12 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page12"></i>
             <div class="car-page">
-                <div class="car-page__container">
+                <div class="car-page__container grid grid-flow-col grid-cols-2">
                     <div class="car-page-image"><img class="car-image car12 "></div>
-                    <div class="car-page-chars">
+                    <div class="car-page-chars rounded-md grid grid-flow-row grid-cols-2">
                         <h2>Характеристики</h2>
                         <div class="car-page-text">Марка: </div><div class="car-page-mark car-mark car12 ">PLLL</div>
                         <div class="car-page-text">Модель: </div><div class="car-page-model car-model car12 ">PLLL</div>

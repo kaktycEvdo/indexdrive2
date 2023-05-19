@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=1.0">
     <link rel="stylesheet" href="static/output.css">
-    <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/fontawesome-free-5.14.0-web/css/all.css">
     <link rel="icon" href="static/favicon.ico">
     <title>Index Drive</title>
@@ -42,8 +41,8 @@
         </div>
     </header>
     <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
-    <div class="side-menu h-screen w-2/12 right-0 top-0 fixed">
-        <div class="side-menu__container">
+    <div class="side-menu h-screen w-2/12 top-20 fixed bg-slate-600">
+        <div class="side-menu__container h-full flex flex-col">
             <a href="booking.html" class="replacements bro">Бронирование</a>
             <a href="history.html">История бронирования</a>
             <a href="cards.html">Карты</a>
@@ -53,8 +52,8 @@
         </div>
     </div>
     <div class="banner">
-        <img src="media/images/roads/plan-road-trip-tips-ideas.jpg">
-        <div class="banner__container absolute w-full h-full top-0 flex items-center justify-center text-2xl text-center bg-black bg-opacity-30">
+        <img src="media/images/roads/plan-road-trip-tips-ideas.jpg" class="w-screen h-screen object-cover">
+        <div class="banner__container absolute w-full h-screen top-0 flex items-center justify-center text-2xl text-center bg-black bg-opacity-30">
             ПОПРОБУЙТЕ ВПЕЧАТЛЕНИЯ ПРОИЗВОДИТЕЛЯ.<br><br>
 
             С нами ваша дорога пройдёт гладко, насыщенно и безопасно.
@@ -62,42 +61,42 @@
     </div>
     <div class="content" style="padding-top: 0;">
         <div class="content__container">
-            <div class="search grid grid-flow-col grid-cols-3">
-                <img src="" class="search-cars object-contain">
-                <div class="search-text">
-                    <div>Вот эти машины нам доверяют.<br>
+            <div class="search flex justify-center items-center content-center w-screen">
+                <img src="" class="search-cars object-contain w-96">
+                <div class="search-text h-full">
+                    <div class="h-full flex justify-center items-center text-center text-2xl">Вот эти машины нам доверяют.<br>
                         А вы нам нет?<br>
                         Попробуйте каталог и убедитесь сами.</div>
                 </div>
-                <img src="" class="search-cars object-contain">
+                <img src="" class="search-cars object-contain w-96">
             </div>
-            <h2 class="h-title">Новости</h2>
-            <div class="news">
-                <div class="new page-opener page1">
+            <h2 class="text-2xl">Новости</h2>
+            <div class="news grid grid-cols-4 gap-2 h-96 p-4">
+                <div class="new page-opener page1 h-full overflow-hidden p-4 bg-gray-700 rounded-md">
                     <div class="new-name page-opener page1">В России вынесли первый приговор за продажу аккаунтов каршеринга</div>
-                    <div class="new-image"><img src="media/images/cars/ew-car-png-cb-car-png-car-11563267985ea0mqfwilw.png" class="page-opener page1"></div>
+                    <div class="new-image h-80"><img src="media/images/cars/ew-car-png-cb-car-png-car-11563267985ea0mqfwilw.png" class="page-opener page1 h-full object-cover w-full"></div>
                     <div class="new-description page-opener page1">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ Романа Амелина на 50 тыс. рублей. Как сообщает РАПСИ со ссылкой на Объединенную пресс-службу судов Петербурга, 21-летний молодой человек обвинялся по части 2 статьи 272 УК РФ (неправомерный доступ к компьютерной информации, совершенный из корыстной заинтересованности).</div>
                 </div>
-                <div class="new page-opener page2">
+                <div class="new page-opener page2 h-full overflow-hidden p-4 bg-gray-700 rounded-md">
                     <div class="new-name page-opener page2">Программа поддержки каршеринга не заработала из-за российского телематического оборудования</div>
-                    <div class="new-image"><img src="media/images/cars/images.jfif" class="page-opener page2"></div>
+                    <div class="new-image h-80"><img src="media/images/cars/images.jfif" class="page-opener page2 h-full object-cover w-full"></div>
                     <div class="new-description page-opener page2">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента РФ Владимира Путина, так и не заработала.</div>
                 </div>
-                <div class="new page-opener page3">
+                <div class="new page-opener page3 h-full overflow-hidden p-4 bg-gray-700 rounded-md">
                     <div class="new-name page-opener page3">Мошенничество с данными клиентов</div>
-                    <div class="new-image"><img src="media/images/cars/images (1).jfif" class="page-opener page3"></div>
+                    <div class="new-image h-80"><img src="media/images/cars/images (1).jfif" class="page-opener page3 h-full object-cover w-full"></div>
                     <div class="new-description page-opener page3">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты в микрофинансовых компаниях. Также базы каршерингов используют для звонков из фальшивой службы безопасности банков - так можно узнать наличие денег на счёте, данные банковских карт.</div>
                 </div>
-                <div class="new page-opener page4">
+                <div class="new page-opener page4 h-full overflow-hidden p-4 bg-gray-700 rounded-md">
                     <div class="new-name page-opener page4">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам объяснять не спешат</div>
-                    <div class="new-image"><img src="media/images/cars/Vintage_blue_car.png" class="page-opener page4"></div>
-                    <div class="new-description page-opener page4">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности и 9 июня направили коллективное обращение.</div>
+                    <div class="new-image h-80"><img src="media/images/cars/Vintage_blue_car.png" class="page-opener page4 h-full object-cover w-full"></div>
+                    <div class="new-description page-opener page4 h-full">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности и 9 июня направили коллективное обращение.</div>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer__container">
+    <footer class="w-screen bg-gray-800">
+        <div class="footer__container flex flex-column w-full justify-around p-8">
             <ul class="footer-link">
                 <li>Телефон:</li>
                 <li><a>8-800-555-35-35</a></li>
@@ -128,8 +127,8 @@
             </div>
         </div>
     </section>
-    <section class="page page2 hidden">
-        <div class="page__container">
+    <section class="page page2 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page2"></i>
             <div class="new-page-content">
                 <div class="new-name">Программа поддержки каршеринга не заработала из-за российского телематического оборудования</div>
@@ -138,8 +137,8 @@
             </div>
         </div>
     </section>
-    <section class="page page3 hidden">
-        <div class="page__container">
+    <section class="page page3 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page3"></i>
             <div class="new-page-content">
                 <div class="new-name">Мошенничество с данными клиентов</div>
@@ -148,8 +147,8 @@
             </div>
         </div>
     </section>
-    <section class="page page4 hidden">
-        <div class="page__container">
+    <section class="page page4 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page4"></i>
             <div class="new-page-content">
                 <div class="new-name">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам объяснять не спешат</div>
@@ -158,6 +157,6 @@
             </div>
         </div>
     </section>
-    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <h1 class="wow hidden">Мы не рассматривали вариант существования вашего устройства.</h1>
 </body>
 </html>

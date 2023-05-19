@@ -21,27 +21,27 @@
     </script>
 </head>
 <body>
-    <header>
-        <div class="header__container">
-            <div class="index">
-                <a href="index.html">
-                    <img src="media/images/logo.png">
+    <header class="fixed z-20 top-0 w-screen bg-gray-950">
+        <div class="header__container grid grid-flow-col h-20 justify-center content-center">
+            <div class="index h-20 flex items-center">
+                <a href="index.html" class="h-16">
+                    <img src="media/images/logo.png" class="h-full object-contain">
                 </a>
             </div>
-            <div class="menu">
-                <a href="branches.html">Филиалы</a>
-                <a href="car-select.html">Автомобили</a>
-                <a href="booking.html" class="bro">Бронирование</a>
+            <div class="menu grid justify-center items-center grid-flow-col gap-10">
+                <a href="branches.html" class="flex justify-center items-center h-full w-full">Филиалы</a>
+                <a href="car-select.html" class="flex justify-center items-center h-full w-full">Автомобили</a>
+                <a href="booking.html" class="flex justify-center items-center h-full w-full bro">Бронирование</a>
             </div>
-            <div class="account">
-                <a href="profile.html" class="account-link">Гость</a>
+            <div class="account accent-text">
+                <a href="profile.html" class="account-link h-full w-full flex justify-center content-center items-center">Гость</a>
             </div>
-            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+            <a class="menu-button h-full flex items-center cursor-pointer w-24 justify-center"><i class="fas fa-th-list text-6xl"></i></a>
         </div>
     </header>
-    <div class="side-menu__trigger"></div>
-    <div class="side-menu">
-        <div class="side-menu__container">
+    <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
+    <div class="side-menu h-screen w-2/12 top-20 fixed bg-slate-600">
+        <div class="side-menu__container h-full flex flex-col">
             <a href="booking.html" class="replacements bro">Бронирование</a>
             <a href="history.html">История бронирования</a>
             <a href="cards.html">Карты</a>
@@ -50,42 +50,42 @@
             <a href="profile.html" class="replacements">ЛК</a>
         </div>
     </div>
-    <div class="content">
-        <div class="content__container">
-            <h2>Выберите филиал (г. Барнаул)</h2>
-            <div class="fel-list">
-                <div class="fel-list__container">
-                    <a class="fel page-opener page1">
-                        <div class="fel-name page-opener page1">Первый</div>
-                        <img class="fel-image page-opener page1" src="media/images/maps/Kras.png">
-                        <div class="fel-adress page-opener page1">ул. 280-летия Барнаула, д. 16</div>
+    <div class="content relative top-20 min-h-screen">
+        <div class="content__container h-full">
+            <h2 class="text-xl">Выберите филиал (г. Барнаул)</h2>
+            <div class="fel-list h-full">
+                <div class="fel-list__container grid grid-flow-col grid-cols-5 h-full w-screen">
+                    <a class="fel page-opener page1 grid grid-flow-row grid-rows-3 justify-center content-center items-center">
+                        <div class="fel-name page-opener page1 text-center">Первый</div>
+                        <img class="fel-image page-opener page1 h-full object-cover w-full" src="media/images/maps/Kras.png">
+                        <div class="fel-adress page-opener page1 text-center">ул. 280-летия Барнаула, д. 16</div>
                     </a>
-                    <a class="fel page-opener page2">
-                        <div class="fel-name page-opener page2">Второй</div>
-                        <img class="fel-image page-opener page2" src="media/images/maps/Moskow.png">
-                        <div class="fel-adress page-opener page2">ул. Северо-Западная, д. 159</div>
+                    <a class="fel page-opener page2 grid grid-flow-row grid-rows-3 justify-center content-center items-center">
+                        <div class="fel-name page-opener page2 text-center">Второй</div>
+                        <img class="fel-image page-opener page2 h-full object-cover w-full" src="media/images/maps/Moskow.png">
+                        <div class="fel-adress page-opener page2 text-center">ул. Северо-Западная, д. 159</div>
                     </a>
-                    <a class="fel page-opener page3">
-                        <div class="fel-name page-opener page3">Третий</div>
-                        <img class="fel-image page-opener page3" src="media/images/maps/Novos.png">
-                        <div class="fel-adress page-opener page3">ул. Проспект Космонавтов, д. 10/4, ​Автокомплекс "Техно-Маркет"</div>
+                    <a class="fel page-opener page3 grid grid-flow-row grid-rows-3 justify-center content-center items-center">
+                        <div class="fel-name page-opener page3 text-center">Третий</div>
+                        <img class="fel-image page-opener page3 h-full object-cover w-full" src="media/images/maps/Novos.png">
+                        <div class="fel-adress page-opener page3 text-center">ул. Проспект Космонавтов, д. 10/4, ​Автокомплекс "Техно-Маркет"</div>
                     </a>
-                    <a class="fel page-opener page4">
-                        <div class="fel-name page-opener page4">Четвертый</div>
-                        <img class="fel-image page-opener page4" src="media/images/maps/Piter.png">
-                        <div class="fel-adress page-opener page4">​ул. Павловский тракт, д. 164</div>
+                    <a class="fel page-opener page4 grid grid-flow-row grid-rows-3 justify-center content-center items-center">
+                        <div class="fel-name page-opener page4 text-center">Четвертый</div>
+                        <img class="fel-image page-opener page4 h-full object-cover w-full" src="media/images/maps/Piter.png">
+                        <div class="fel-adress page-opener page4 text-center">​ул. Павловский тракт, д. 164</div>
                     </a>
-                    <a class="fel page-opener page5">
-                        <div class="fel-name page-opener page5">Пятый</div>
-                        <img class="fel-image page-opener page5" src="media/images/maps/Томск.png">
-                        <div class="fel-adress page-opener page5">​ул. Герцена, д. 7/524</div>
+                    <a class="fel page-opener page5 grid grid-flow-row grid-rows-3 justify-center content-center items-center">
+                        <div class="fel-name page-opener page5 text-center">Пятый</div>
+                        <img class="fel-image page-opener page5 h-full object-cover w-full" src="media/images/maps/Томск.png">
+                        <div class="fel-adress page-opener page5 text-center">​ул. Герцена, д. 7/524</div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer__container">
+    <footer class="w-screen bg-gray-800 relative">
+        <div class="footer__container flex flex-column w-full justify-around p-8">
             <ul class="footer-link">
                 <li>Телефон:</li>
                 <li><a>8-800-555-35-35</a></li>
@@ -94,7 +94,7 @@
                 <li>Аккаунт:</li>
                 <li><a href="profile.html">Личный кабинет</a></li>
                 <li><a href="cards.html">Привязанные карты</a></li>
-                <li><a href="login.html">Вход/Выход/Регистрация</a></li>
+                <li><a href="login.html">Вход/Регистрация</a></li>
             </ul>
             <ul class="footer-link">
                 <li>Сайт:</li>
@@ -104,29 +104,29 @@
                 <li><a href="car-select.html">Автомобили</a></li>
                 <li><a href="index.html">Главная</a></li>
             </ul>
-            <div class="footer-bottom-text"></div>
         </div>
     </footer>
-    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
-    <section class="page page1">
-        <div class="page__container">
+    
+    <h1 class="wow hidden">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page1"></i>
             <h2>Здесь доступны:</h2>
-            <div class="fl-page-content">
-                <div class="fel-car">
-                    <img class="car-image car6 cars">
+            <div class="fl-page-content flex justify-center content-center p-5">
+                <div class="fel-car m-5">
+                    <img class="car-image car6 cars w-72 h-32 object-contain">
                     <div class="car-name car6 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car6 cars">NNN</i></div>
                     <a class="generic-button carchoice c6 f1" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car8 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car8 cars w-72 h-32 object-contain">
                     <div class="car-name car8 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car8 cars">NNN</i></div>
                     <a class="generic-button carchoice c8 f1" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car2 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car2 cars w-72 h-32 object-contain">
                     <div class="car-name car2 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car2 cars">NNN</i></div>
                     <a class="generic-button carchoice c2 f1" href="booking.html">Выбрать</a>
@@ -134,25 +134,25 @@
             </div>
         </div>
     </section>
-    <section class="page page2">
-        <div class="page__container">
+    <section class="page page2 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page2"></i>
             <h2>Здесь доступны:</h2>
-            <div class="fl-page-content">
-                <div class="fel-car">
-                    <img class="car-image car11 cars">
+            <div class="fl-page-content flex justify-center content-center p-5">
+                <div class="fel-car m-5">
+                    <img class="car-image car11 cars w-72 h-32 object-contain">
                     <div class="car-name car11 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car11 cars">NNN</i></div>
                     <a class="generic-button carchoice c11 f2" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car12 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car12 cars w-72 h-32 object-contain">
                     <div class="car-name car12 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car12 cars">NNN</i></div>
                     <a class="generic-button carchoice c12 f2" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car5 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car5 cars w-72 h-32 object-contain">
                     <div class="car-name car5 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car5 cars">NNN</i></div>
                     <a class="generic-button carchoice c5 f2" href="booking.html">Выбрать</a>
@@ -160,25 +160,25 @@
             </div>
         </div>
     </section>
-    <section class="page page3">
-        <div class="page__container">
+    <section class="page page3 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page3"></i>
             <h2>Здесь доступны:</h2>
-            <div class="fl-page-content">
-                <div class="fel-car">
-                    <img class="car-image car8 cars">
+            <div class="fl-page-content flex justify-center content-center p-5">
+                <div class="fel-car m-5">
+                    <img class="car-image car8 cars w-72 h-32 object-contain">
                     <div class="car-name car8 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car8 cars">NNN</i></div>
                     <a class="generic-button carchoice c8 f3" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car3 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car3 cars w-72 h-32 object-contain">
                     <div class="car-name car3 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car3 cars">NNN</i></div>
                     <a class="generic-button carchoice c3 f3" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car1 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car1 cars w-72 h-32 object-contain">
                     <div class="car-name car1 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car1 cars">NNN</i></div>
                     <a class="generic-button carchoice c1 f3" href="booking.html">Выбрать</a>
@@ -186,25 +186,25 @@
             </div>
         </div>
     </section>
-    <section class="page page4">
-        <div class="page__container">
+    <section class="page page4 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page4"></i>
             <h2>Здесь доступны:</h2>
-            <div class="fl-page-content">
-                <div class="fel-car">
-                    <img class="car-image car4 cars">
+            <div class="fl-page-content flex justify-center content-center p-5">
+                <div class="fel-car m-5">
+                    <img class="car-image car4 cars w-72 h-32 object-contain">
                     <div class="car-name car4 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car4 cars">NNN</i></div>
                     <a class="generic-button carchoice c4 f4" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car7 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car7 cars w-72 h-32 object-contain">
                     <div class="car-name car7 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car7 cars">NNN</i></div>
                     <a class="generic-button carchoice c7 f4" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car9 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car9 cars w-72 h-32 object-contain">
                     <div class="car-name car9 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car9 cars">NNN</i></div>
                     <a class="generic-button carchoice c9 f4" href="booking.html">Выбрать</a>
@@ -212,25 +212,25 @@
             </div>
         </div>
     </section>
-    <section class="page page5">
-        <div class="page__container">
+    <section class="page page5 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page5"></i>
             <h2>Здесь доступны:</h2>
-            <div class="fl-page-content">
-                <div class="fel-car">
-                    <img class="car-image car10 cars">
+            <div class="fl-page-content flex justify-center content-center p-5">
+                <div class="fel-car m-5">
+                    <img class="car-image car10 cars w-72 h-32 object-contain">
                     <div class="car-name car10 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car10 cars">NNN</i></div>
                     <a class="generic-button carchoice c10 f5" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car6 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car6 cars w-72 h-32 object-contain">
                     <div class="car-name car6 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car6 cars">NNN</i></div>
                     <a class="generic-button carchoice c6 f5" href="booking.html">Выбрать</a>
                 </div>
-                <div class="fel-car">
-                    <img class="car-image car5 cars">
+                <div class="fel-car m-5">
+                    <img class="car-image car5 cars w-72 h-32 object-contain">
                     <div class="car-name car5 cars">PlaceHolder</div>
                     <div>от <i class="accent-text car-price car5 cars">NNN</i></div>
                     <a class="generic-button carchoice c5 f5" href="booking.html">Выбрать</a>

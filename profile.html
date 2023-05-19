@@ -22,27 +22,27 @@
     </script>
 </head>
 <body>
-    <header>
-        <div class="header__container">
-            <div class="index">
-                <a href="index.html">
-                    <img src="media/images/logo.png">
+    <header class="fixed z-20 top-0 w-screen bg-gray-950">
+        <div class="header__container grid grid-flow-col h-20 justify-center content-center">
+            <div class="index h-20 flex items-center">
+                <a href="index.html" class="h-16">
+                    <img src="media/images/logo.png" class="h-full object-contain">
                 </a>
             </div>
-            <div class="menu">
-                <a href="branches.html">Филиалы</a>
-                <a href="car-select.html">Автомобили</a>
-                <a href="booking.html" class="bro">Бронирование</a>
+            <div class="menu grid justify-center items-center grid-flow-col gap-10">
+                <a href="branches.html" class="flex justify-center items-center h-full w-full">Филиалы</a>
+                <a href="car-select.html" class="flex justify-center items-center h-full w-full">Автомобили</a>
+                <a href="booking.html" class="flex justify-center items-center h-full w-full bro">Бронирование</a>
             </div>
-            <div class="account">
-                <a href="profile.html" class="account-link">Гость</a>
+            <div class="account accent-text">
+                <a href="profile.html" class="account-link h-full w-full flex justify-center content-center items-center">Гость</a>
             </div>
-            <a class="menu-button"><i class="fas fa-th-list"></i></a>
+            <a class="menu-button h-full flex items-center cursor-pointer w-24 justify-center"><i class="fas fa-th-list text-6xl"></i></a>
         </div>
     </header>
-    <div class="side-menu__trigger"></div>
-    <div class="side-menu">
-        <div class="side-menu__container">
+    <div class="side-menu__trigger h-screen w-2 right-0 top-0 fixed"></div>
+    <div class="side-menu h-screen w-2/12 top-20 fixed bg-slate-600">
+        <div class="side-menu__container h-full flex flex-col">
             <a href="booking.html" class="replacements bro">Бронирование</a>
             <a href="history.html">История бронирования</a>
             <a href="cards.html">Карты</a>
@@ -51,25 +51,25 @@
             <a href="profile.html" class="replacements">ЛК</a>
         </div>
     </div>
-    <div class="content">
+    <div class="content relative top-20 min-h-screen">
         <div class="content__container">
             <div class="account-show">
-                <section class="ac-section">
+                <section class="ac-section flex flex-col justify-center items-center">
                     <h2>Аккаунт:</h2>
-                    <div class="ac-overview">
-                        <div class="ac-labels">Фамилия: </div><div id="ac-surname">Фамилия</div>
-                        <div class="ac-labels">Имя: </div><div id="ac-name">Имя</div>
-                        <div class="ac-labels">Отчество: </div><div id="ac-sec-name">Отчество</div>
-                        <div class="ac-labels">Номер паспорта: </div><div id="passport-id">nnnnnn nnnn</div>
-                        <div class="ac-labels">Телефон: </div><div id="ac-phone">+n-(nnn)-nnn-nn-nn</div>
-                        <div class="ac-labels">Дата рождения: </div><div id="ac-bd-date">dd-mm-yyyy</div>
-                        <div class="ac-labels">Активная карта: </div><div id="cards">
+                    <div class="ac-overview grid grid-flow-row grid-cols-2 bg-slate-600 rounded-md w-96">
+                        <div class="ac-labels p-4">Фамилия: </div><div id="ac-surname" class="p-4">Фамилия</div>
+                        <div class="ac-labels p-4">Имя: </div><div id="ac-name" class="p-4">Имя</div>
+                        <div class="ac-labels p-4">Отчество: </div><div id="ac-sec-name" class="p-4">Отчество</div>
+                        <div class="ac-labels p-4">Номер паспорта: </div><div id="passport-id" class="p-4">nnnnnn nnnn</div>
+                        <div class="ac-labels p-4">Телефон: </div><div id="ac-phone" class="p-4">+n-(nnn)-nnn-nn-nn</div>
+                        <div class="ac-labels p-4">Дата рождения: </div><div id="ac-bd-date" class="p-4">dd-mm-yyyy</div>
+                        <div class="ac-labels p-4">Активная карта: </div><div id="cards" class="p-4">
                             <div class="ac-card">
                                 <div class="ac-card-number"></div>
                             </div>
                             <a class="generic-button" href="cards.html">Изменить</a>
                         </div>
-                        <a class="ac-logout-button generic-button g-button-red page-opener page1">Выйти</a>
+                        <a class="ac-logout-button generic-button g-button-red page-opener page1 col-start-1 col-end-3">Выйти</a>
                     </div>
                     <h2>Бронирования:</h2>
                     <div class="acbk-list">
@@ -80,8 +80,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer__container">
+    <footer class="w-screen bg-gray-800 relative">
+        <div class="footer__container flex flex-column w-full justify-around p-8">
             <ul class="footer-link">
                 <li>Телефон:</li>
                 <li><a>8-800-555-35-35</a></li>
@@ -102,9 +102,9 @@
             </ul>
         </div>
     </footer>
-    <h1 class="wow">Мы не рассматривали вариант существования вашего устройства.</h1>
-    <section class="page page1">
-        <div class="page__container">
+    <h1 class="wow hidden">Мы не рассматривали вариант существования вашего устройства.</h1>
+    <section class="page page1 hidden fixed top-20 w-screen z-10 justify-center h-screen items-center content-start flex-row">
+        <div class="page__container max-h-96 overflow-auto  w-8/12 bg-gray-800 rounded-md">
             <i class="fas fa-window-close page-closer page1"></i>
             <div class="ac-logout-page-content">
                 <div class="ac-logout-text">Вы уверены, что хотите выйти из аккаунта?</div>
